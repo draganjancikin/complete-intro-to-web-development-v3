@@ -1,0 +1,152 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #43281C;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.header-top {
+  background-color: white;
+}
+
+.brand {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.brand-logo {
+  width: 50px;
+}
+.brand-title {
+  color: #eee1d5;
+  margin: 0;
+  text-align: center;
+}
+
+.main-content {
+  background-color: #EFF0F0;
+  padding-top: 40px;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-bottom: 25px;
+  border-radius: 10px;
+}
+
+.cards {
+  display: flex;
+  align-content: space-around;
+  gap: 45px;
+}
+.card {
+  background-color: #EEE1D5;
+  border-radius: 10px;
+  padding: 15px;
+  margin-top: 20px;
+  box-shadow: 3px 3px 10px #cccccc;
+}
+.card-title {
+  text-transform: uppercase;
+  color: #8C5E33;
+  margin-bottom: 30px;
+  margin-left: 10px;
+}
+
+.items {
+  flex: 1;
+}
+.item {
+  display: flex;
+  border-bottom: 2px solid #E6CCB4;
+  padding: 20px 10px;
+}
+.item:last-child {
+  border-bottom: none;
+}
+.item-quantity {
+  flex: 1;
+}
+.item-name-and-quantity {
+  flex: 10;
+}
+.item-name {
+  color: #535A46;
+  font-weight: 700;
+}
+.item-add {
+  color: #8C5E33;
+}
+.item-price {
+  flex: 2;
+}
+
+.customer-data {
+  flex: 1;
+}
+
+.text-input-group {
+  position: relative;
+  /*display: inline-block;*/
+  margin-top: 15px;
+}
+.text-input-label {
+  position: absolute;
+  color: #885A2D;
+  font-size: 11px;
+  top: -7px;
+  left: 25px;
+  background-color: #EEE1D5;
+  padding: 0 2px;
+}
+.text-input {
+  border-color: #885A2D;
+  padding: 8px;
+  border-radius: 20px;
+  background-color: #EEE1D5;
+  line-height: 1.8;
+  text-indent: 18px;
+}
+.full-width {
+  width: 100%;
+}
+
+.order {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+.subtotal {
+  width: 30%;
+  display: flex;
+  justify-content: space-between;
+  margin: 5px 0;
+}
+.tax {
+  width: 30%;
+  display: flex;
+  justify-content: space-between;
+  margin: 5px 0;
+}
+.total {
+  width: 30%;
+  display: flex;
+  justify-content: space-between;
+  margin: 5px 0;
+  font-weight: 700;
+}
+.submit {
+  border: none;
+  border-radius: 20px;
+  background-color: #DEB993;
+  color: #885A2D;
+  padding: 10px;
+  display: inline-block;
+  width: 100%;
+}
